@@ -1,0 +1,37 @@
+.piedepagina{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: ghostwhite;
+    background-color: gray;
+    text-align: center;
+    line-height: 3;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+body{
+    background-color: lightpink;
+    font-family: 'Raleway', sans-serif;
+}
+.header_div{
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
+}
+.header_div p{
+    color: midnightblue;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+#boton{
+margin-top: 30px;
+width: 150px;
+letter-spacing: 2px;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+}
+#resultadoetiqueta{
+    font-family: 'Raleway', sans-serif;
+}
+#resultadoconfia{
+    font-family: 'Raleway', sans-serif;
+}

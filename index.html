@@ -1,0 +1,43 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center"><h1>Aliens controlados por sonidos</h1><p>Nota: haz diferentes sonidos como, aplausos, chasquidos, wui, y ruido de fondo para hacer bailar a los Aliens</p></div>
+    <div class="maindiv">  
+    <center>
+      <br><br>
+      <button class="btn btn-danger" onclick="startclasificacion();" id="boton">Empezar</button>
+      <h1 id="resultadoetiqueta">Escucho: </h1> 
+      <h2 id="resultadoconfia">Precisión: </h2>
+      <br>
+      <img src="aliens-01.png" id="a1" width="300" height="300">
+      <img src="aliens-02.png" id="a2" width="300" height="300">
+      <img src="aliens-03.png" id="a3" width="300" height="300">
+      <img src="aliens-04.png" id="a4" width="300" height="300">
+    </center>
+      
+    </div>
+    <div class="piedepagina">Creado por Carlos Toledo en la clase de Byju's</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
